@@ -6,7 +6,7 @@ O objetivo aqui é disponibilizar o projeto de backend, que foi desenvolvido par
 
 Linkendin: https://www.linkedin.com/in/tatianepr/
 
-
+Fonte utilizada no modelo: https://archive.ics.uci.edu/dataset/186/wine+quality
 
 ## Principais APIs
 

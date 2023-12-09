@@ -1,82 +1,35 @@
-[2023-12-09 12:12:12,426] INFO _log() L96   127.0.0.1 - - [09/Dec/2023 12:12:12] "GET /vinhos HTTP/1.1" 200 - - call_trace=C:\Users\tathy\OneDrive\Documentos\PUC-RIO\Engenharia de Software\Sprint 4\MVP\aplicacao\api_vinho\env\Lib\site-packages\werkzeug\_internal.py L96  
-[2023-12-09 12:12:18,013] INFO _log() L96   127.0.0.1 - - [09/Dec/2023 12:12:18] "GET /vinhos HTTP/1.1" 200 - - call_trace=C:\Users\tathy\OneDrive\Documentos\PUC-RIO\Engenharia de Software\Sprint 4\MVP\aplicacao\api_vinho\env\Lib\site-packages\werkzeug\_internal.py L96  
-[2023-12-09 12:12:18,018] INFO _log() L96   127.0.0.1 - - [09/Dec/2023 12:12:18] "GET /vinhos HTTP/1.1" 200 - - call_trace=C:\Users\tathy\OneDrive\Documentos\PUC-RIO\Engenharia de Software\Sprint 4\MVP\aplicacao\api_vinho\env\Lib\site-packages\werkzeug\_internal.py L96  
-[2023-12-09 12:12:26,188] INFO _log() L96   127.0.0.1 - - [09/Dec/2023 12:12:26] "GET /vinhos HTTP/1.1" 200 - - call_trace=C:\Users\tathy\OneDrive\Documentos\PUC-RIO\Engenharia de Software\Sprint 4\MVP\aplicacao\api_vinho\env\Lib\site-packages\werkzeug\_internal.py L96  
-[2023-12-09 12:12:34,225] INFO _log() L96   127.0.0.1 - - [09/Dec/2023 12:12:34] "GET /vinhos HTTP/1.1" 200 - - call_trace=C:\Users\tathy\OneDrive\Documentos\PUC-RIO\Engenharia de Software\Sprint 4\MVP\aplicacao\api_vinho\env\Lib\site-packages\werkzeug\_internal.py L96  
-[2023-12-09 12:12:39,263] INFO _log() L96   127.0.0.1 - - [09/Dec/2023 12:12:39] "GET /vinhos HTTP/1.1" 200 - - call_trace=C:\Users\tathy\OneDrive\Documentos\PUC-RIO\Engenharia de Software\Sprint 4\MVP\aplicacao\api_vinho\env\Lib\site-packages\werkzeug\_internal.py L96  
-[2023-12-09 12:12:42,005] INFO _log() L96   127.0.0.1 - - [09/Dec/2023 12:12:42] "GET /vinhos HTTP/1.1" 200 - - call_trace=C:\Users\tathy\OneDrive\Documentos\PUC-RIO\Engenharia de Software\Sprint 4\MVP\aplicacao\api_vinho\env\Lib\site-packages\werkzeug\_internal.py L96  
-[2023-12-09 12:12:43,509] INFO _log() L96   127.0.0.1 - - [09/Dec/2023 12:12:43] "GET /vinhos HTTP/1.1" 200 - - call_trace=C:\Users\tathy\OneDrive\Documentos\PUC-RIO\Engenharia de Software\Sprint 4\MVP\aplicacao\api_vinho\env\Lib\site-packages\werkzeug\_internal.py L96  
-[2023-12-09 12:14:33,248] INFO _log() L96   127.0.0.1 - - [09/Dec/2023 12:14:33] "GET /vinhos HTTP/1.1" 200 - - call_trace=C:\Users\tathy\OneDrive\Documentos\PUC-RIO\Engenharia de Software\Sprint 4\MVP\aplicacao\api_vinho\env\Lib\site-packages\werkzeug\_internal.py L96  
-[2023-12-09 12:14:35,697] INFO _log() L96   127.0.0.1 - - [09/Dec/2023 12:14:35] "GET /vinhos HTTP/1.1" 200 - - call_trace=C:\Users\tathy\OneDrive\Documentos\PUC-RIO\Engenharia de Software\Sprint 4\MVP\aplicacao\api_vinho\env\Lib\site-packages\werkzeug\_internal.py L96  
-[2023-12-09 12:15:08,718] ERROR log_exception() L825  Exception on /vinhos [GET] - call_trace=C:\Users\tathy\OneDrive\Documentos\PUC-RIO\Engenharia de Software\Sprint 4\MVP\aplicacao\api_vinho\env\Lib\site-packages\flask\app.py L825 
-Traceback (most recent call last):
-  File "C:\Users\tathy\OneDrive\Documentos\PUC-RIO\Engenharia de Software\Sprint 4\MVP\aplicacao\api_vinho\env\Lib\site-packages\flask\app.py", line 1455, in wsgi_app
-    response = self.full_dispatch_request()
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\tathy\OneDrive\Documentos\PUC-RIO\Engenharia de Software\Sprint 4\MVP\aplicacao\api_vinho\env\Lib\site-packages\flask\app.py", line 869, in full_dispatch_request
-    rv = self.handle_user_exception(e)
-         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\tathy\OneDrive\Documentos\PUC-RIO\Engenharia de Software\Sprint 4\MVP\aplicacao\api_vinho\env\Lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
-    return cors_after_request(app.make_response(f(*args, **kwargs)))
-                                                ^^^^^^^^^^^^^^^^^^
-  File "C:\Users\tathy\OneDrive\Documentos\PUC-RIO\Engenharia de Software\Sprint 4\MVP\aplicacao\api_vinho\env\Lib\site-packages\flask\app.py", line 867, in full_dispatch_request
-    rv = self.dispatch_request()
-         ^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\tathy\OneDrive\Documentos\PUC-RIO\Engenharia de Software\Sprint 4\MVP\aplicacao\api_vinho\env\Lib\site-packages\flask\app.py", line 852, in dispatch_request
-    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\tathy\OneDrive\Documentos\PUC-RIO\Engenharia de Software\Sprint 4\MVP\aplicacao\api_vinho\env\Lib\site-packages\flask_openapi3\scaffold.py", line 117, in view_func
-    response = func(**func_kwargs)
-               ^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\tathy\OneDrive\Documentos\PUC-RIO\Engenharia de Software\Sprint 4\MVP\aplicacao\api_vinho\app.py", line 47, in get_vinhos
-    vinhos = session.query(Vinho).all()
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\tathy\OneDrive\Documentos\PUC-RIO\Engenharia de Software\Sprint 4\MVP\aplicacao\api_vinho\env\Lib\site-packages\sqlalchemy\orm\query.py", line 2693, in all
-    return self._iter().all()  # type: ignore
-           ^^^^^^^^^^^^
-  File "C:\Users\tathy\OneDrive\Documentos\PUC-RIO\Engenharia de Software\Sprint 4\MVP\aplicacao\api_vinho\env\Lib\site-packages\sqlalchemy\orm\query.py", line 2847, in _iter
-    result: Union[ScalarResult[_T], Result[_T]] = self.session.execute(
-                                                  ^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\tathy\OneDrive\Documentos\PUC-RIO\Engenharia de Software\Sprint 4\MVP\aplicacao\api_vinho\env\Lib\site-packages\sqlalchemy\orm\session.py", line 2308, in execute
-    return self._execute_internal(
-           ^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\tathy\OneDrive\Documentos\PUC-RIO\Engenharia de Software\Sprint 4\MVP\aplicacao\api_vinho\env\Lib\site-packages\sqlalchemy\orm\session.py", line 2180, in _execute_internal
-    conn = self._connection_for_bind(bind)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\tathy\OneDrive\Documentos\PUC-RIO\Engenharia de Software\Sprint 4\MVP\aplicacao\api_vinho\env\Lib\site-packages\sqlalchemy\orm\session.py", line 2047, in _connection_for_bind
-    return trans._connection_for_bind(engine, execution_options)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "<string>", line 2, in _connection_for_bind
-  File "C:\Users\tathy\OneDrive\Documentos\PUC-RIO\Engenharia de Software\Sprint 4\MVP\aplicacao\api_vinho\env\Lib\site-packages\sqlalchemy\orm\state_changes.py", line 139, in _go
-    ret_value = fn(self, *arg, **kw)
-                ^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\tathy\OneDrive\Documentos\PUC-RIO\Engenharia de Software\Sprint 4\MVP\aplicacao\api_vinho\env\Lib\site-packages\sqlalchemy\orm\session.py", line 1143, in _connection_for_bind
-    conn = bind.connect()
-           ^^^^^^^^^^^^^^
-  File "C:\Users\tathy\OneDrive\Documentos\PUC-RIO\Engenharia de Software\Sprint 4\MVP\aplicacao\api_vinho\env\Lib\site-packages\sqlalchemy\engine\base.py", line 3268, in connect
-    return self._connection_cls(self)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\tathy\OneDrive\Documentos\PUC-RIO\Engenharia de Software\Sprint 4\MVP\aplicacao\api_vinho\env\Lib\site-packages\sqlalchemy\engine\base.py", line 145, in __init__
-    self._dbapi_connection = engine.raw_connection()
-                             ^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\tathy\OneDrive\Documentos\PUC-RIO\Engenharia de Software\Sprint 4\MVP\aplicacao\api_vinho\env\Lib\site-packages\sqlalchemy\engine\base.py", line 3292, in raw_connection
-    return self.pool.connect()
-           ^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\tathy\OneDrive\Documentos\PUC-RIO\Engenharia de Software\Sprint 4\MVP\aplicacao\api_vinho\env\Lib\site-packages\sqlalchemy\pool\base.py", line 452, in connect
-    return _ConnectionFairy._checkout(self)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\tathy\OneDrive\Documentos\PUC-RIO\Engenharia de Software\Sprint 4\MVP\aplicacao\api_vinho\env\Lib\site-packages\sqlalchemy\pool\base.py", line 1269, in _checkout
-    fairy = _ConnectionRecord.checkout(pool)
-            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\tathy\OneDrive\Documentos\PUC-RIO\Engenharia de Software\Sprint 4\MVP\aplicacao\api_vinho\env\Lib\site-packages\sqlalchemy\pool\base.py", line 716, in checkout
-    rec = pool._do_get()
-          ^^^^^^^^^^^^^^
-  File "C:\Users\tathy\OneDrive\Documentos\PUC-RIO\Engenharia de Software\Sprint 4\MVP\aplicacao\api_vinho\env\Lib\site-packages\sqlalchemy\pool\impl.py", line 158, in _do_get
-    raise exc.TimeoutError(
-sqlalchemy.exc.TimeoutError: QueuePool limit of size 5 overflow 10 reached, connection timed out, timeout 30.00 (Background on this error at: https://sqlalche.me/e/20/3o7r)
-[2023-12-09 12:15:08,730] INFO _log() L96   127.0.0.1 - - [09/Dec/2023 12:15:08] "[35m[1mGET /vinhos HTTP/1.1[0m" 500 - - call_trace=C:\Users\tathy\OneDrive\Documentos\PUC-RIO\Engenharia de Software\Sprint 4\MVP\aplicacao\api_vinho\env\Lib\site-packages\werkzeug\_internal.py L96  
-[2023-12-09 12:16:22,734] INFO _log() L96   [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on all addresses (0.0.0.0)
- * Running on http://127.0.0.1:5000
- * Running on http://192.168.15.5:5000 - call_trace=C:\Users\tathy\OneDrive\Documentos\PUC-RIO\Engenharia de Software\Sprint 4\MVP\aplicacao\api_vinho\env\Lib\site-packages\werkzeug\_internal.py L96  
-[2023-12-09 12:16:22,734] INFO _log() L96   [33mPress CTRL+C to quit[0m - call_trace=C:\Users\tathy\OneDrive\Documentos\PUC-RIO\Engenharia de Software\Sprint 4\MVP\aplicacao\api_vinho\env\Lib\site-packages\werkzeug\_internal.py L96  
+[2023-12-09 12:16:32,713] INFO _log() L96   127.0.0.1 - - [09/Dec/2023 12:16:32] "GET /vinhos HTTP/1.1" 200 - - call_trace=C:\Users\tathy\OneDrive\Documentos\PUC-RIO\Engenharia de Software\Sprint 4\MVP\aplicacao\api_vinho\env\Lib\site-packages\werkzeug\_internal.py L96  
+[2023-12-09 12:17:26,968] INFO _log() L96   127.0.0.1 - - [09/Dec/2023 12:17:26] "GET /vinhos HTTP/1.1" 200 - - call_trace=C:\Users\tathy\OneDrive\Documentos\PUC-RIO\Engenharia de Software\Sprint 4\MVP\aplicacao\api_vinho\env\Lib\site-packages\werkzeug\_internal.py L96  
+[2023-12-09 12:17:32,360] INFO _log() L96   127.0.0.1 - - [09/Dec/2023 12:17:32] "GET /vinhos HTTP/1.1" 200 - - call_trace=C:\Users\tathy\OneDrive\Documentos\PUC-RIO\Engenharia de Software\Sprint 4\MVP\aplicacao\api_vinho\env\Lib\site-packages\werkzeug\_internal.py L96  
+[2023-12-09 12:17:43,087] INFO _log() L96   127.0.0.1 - - [09/Dec/2023 12:17:43] "GET /vinhos HTTP/1.1" 200 - - call_trace=C:\Users\tathy\OneDrive\Documentos\PUC-RIO\Engenharia de Software\Sprint 4\MVP\aplicacao\api_vinho\env\Lib\site-packages\werkzeug\_internal.py L96  
+[2023-12-09 12:17:44,594] INFO _log() L96   127.0.0.1 - - [09/Dec/2023 12:17:44] "GET /vinhos HTTP/1.1" 200 - - call_trace=C:\Users\tathy\OneDrive\Documentos\PUC-RIO\Engenharia de Software\Sprint 4\MVP\aplicacao\api_vinho\env\Lib\site-packages\werkzeug\_internal.py L96  
+[2023-12-09 12:17:47,632] INFO _log() L96   127.0.0.1 - - [09/Dec/2023 12:17:47] "GET /vinho?nome= HTTP/1.1" 200 - - call_trace=C:\Users\tathy\OneDrive\Documentos\PUC-RIO\Engenharia de Software\Sprint 4\MVP\aplicacao\api_vinho\env\Lib\site-packages\werkzeug\_internal.py L96  
+[2023-12-09 12:18:05,702] INFO _log() L96   127.0.0.1 - - [09/Dec/2023 12:18:05] "GET /vinhos HTTP/1.1" 200 - - call_trace=C:\Users\tathy\OneDrive\Documentos\PUC-RIO\Engenharia de Software\Sprint 4\MVP\aplicacao\api_vinho\env\Lib\site-packages\werkzeug\_internal.py L96  
+[2023-12-09 12:18:08,400] INFO _log() L96   127.0.0.1 - - [09/Dec/2023 12:18:08] "GET /vinhos HTTP/1.1" 200 - - call_trace=C:\Users\tathy\OneDrive\Documentos\PUC-RIO\Engenharia de Software\Sprint 4\MVP\aplicacao\api_vinho\env\Lib\site-packages\werkzeug\_internal.py L96  
+[2023-12-09 12:18:09,771] INFO _log() L96   127.0.0.1 - - [09/Dec/2023 12:18:09] "GET /vinhos HTTP/1.1" 200 - - call_trace=C:\Users\tathy\OneDrive\Documentos\PUC-RIO\Engenharia de Software\Sprint 4\MVP\aplicacao\api_vinho\env\Lib\site-packages\werkzeug\_internal.py L96  
+[2023-12-09 12:18:14,588] INFO _log() L96   127.0.0.1 - - [09/Dec/2023 12:18:14] "GET /vinho?nome=Vinho HTTP/1.1" 200 - - call_trace=C:\Users\tathy\OneDrive\Documentos\PUC-RIO\Engenharia de Software\Sprint 4\MVP\aplicacao\api_vinho\env\Lib\site-packages\werkzeug\_internal.py L96  
+[2023-12-09 12:18:32,735] INFO _log() L96   127.0.0.1 - - [09/Dec/2023 12:18:32] "GET /vinho?nome=Vinho HTTP/1.1" 200 - - call_trace=C:\Users\tathy\OneDrive\Documentos\PUC-RIO\Engenharia de Software\Sprint 4\MVP\aplicacao\api_vinho\env\Lib\site-packages\werkzeug\_internal.py L96  
+[2023-12-09 12:18:33,697] INFO _log() L96   127.0.0.1 - - [09/Dec/2023 12:18:33] "POST /vinho HTTP/1.1" 200 - - call_trace=C:\Users\tathy\OneDrive\Documentos\PUC-RIO\Engenharia de Software\Sprint 4\MVP\aplicacao\api_vinho\env\Lib\site-packages\werkzeug\_internal.py L96  
+[2023-12-09 12:18:42,241] INFO _log() L96   127.0.0.1 - - [09/Dec/2023 12:18:42] "OPTIONS /vinho?name=Vinho HTTP/1.1" 200 - - call_trace=C:\Users\tathy\OneDrive\Documentos\PUC-RIO\Engenharia de Software\Sprint 4\MVP\aplicacao\api_vinho\env\Lib\site-packages\werkzeug\_internal.py L96  
+[2023-12-09 12:18:42,261] INFO _log() L96   127.0.0.1 - - [09/Dec/2023 12:18:42] "DELETE /vinho?name=Vinho HTTP/1.1" 200 - - call_trace=C:\Users\tathy\OneDrive\Documentos\PUC-RIO\Engenharia de Software\Sprint 4\MVP\aplicacao\api_vinho\env\Lib\site-packages\werkzeug\_internal.py L96  
+[2023-12-09 12:21:53,433] INFO _log() L96   127.0.0.1 - - [09/Dec/2023 12:21:53] "[36mGET /openapi/static/images/swagger.svg HTTP/1.1[0m" 304 - - call_trace=C:\Users\tathy\OneDrive\Documentos\PUC-RIO\Engenharia de Software\Sprint 4\MVP\aplicacao\api_vinho\env\Lib\site-packages\werkzeug\_internal.py L96  
+[2023-12-09 12:36:39,528] INFO _log() L96   127.0.0.1 - - [09/Dec/2023 12:36:39] "GET /vinhos HTTP/1.1" 200 - - call_trace=C:\Users\tathy\OneDrive\Documentos\PUC-RIO\Engenharia de Software\Sprint 4\MVP\aplicacao\api_vinho\env\Lib\site-packages\werkzeug\_internal.py L96  
+[2023-12-09 12:36:43,237] INFO _log() L96   127.0.0.1 - - [09/Dec/2023 12:36:43] "GET /vinhos HTTP/1.1" 200 - - call_trace=C:\Users\tathy\OneDrive\Documentos\PUC-RIO\Engenharia de Software\Sprint 4\MVP\aplicacao\api_vinho\env\Lib\site-packages\werkzeug\_internal.py L96  
+[2023-12-09 12:36:50,683] INFO _log() L96   127.0.0.1 - - [09/Dec/2023 12:36:50] "GET /vinhos HTTP/1.1" 200 - - call_trace=C:\Users\tathy\OneDrive\Documentos\PUC-RIO\Engenharia de Software\Sprint 4\MVP\aplicacao\api_vinho\env\Lib\site-packages\werkzeug\_internal.py L96  
+[2023-12-09 12:36:58,448] INFO _log() L96   127.0.0.1 - - [09/Dec/2023 12:36:58] "GET /vinhos HTTP/1.1" 200 - - call_trace=C:\Users\tathy\OneDrive\Documentos\PUC-RIO\Engenharia de Software\Sprint 4\MVP\aplicacao\api_vinho\env\Lib\site-packages\werkzeug\_internal.py L96  
+[2023-12-09 12:37:08,725] INFO _log() L96   127.0.0.1 - - [09/Dec/2023 12:37:08] "GET /vinhos HTTP/1.1" 200 - - call_trace=C:\Users\tathy\OneDrive\Documentos\PUC-RIO\Engenharia de Software\Sprint 4\MVP\aplicacao\api_vinho\env\Lib\site-packages\werkzeug\_internal.py L96  
+[2023-12-09 12:37:19,814] INFO _log() L96   127.0.0.1 - - [09/Dec/2023 12:37:19] "GET /vinhos HTTP/1.1" 200 - - call_trace=C:\Users\tathy\OneDrive\Documentos\PUC-RIO\Engenharia de Software\Sprint 4\MVP\aplicacao\api_vinho\env\Lib\site-packages\werkzeug\_internal.py L96  
+[2023-12-09 12:37:35,769] INFO _log() L96   127.0.0.1 - - [09/Dec/2023 12:37:35] "GET /vinhos HTTP/1.1" 200 - - call_trace=C:\Users\tathy\OneDrive\Documentos\PUC-RIO\Engenharia de Software\Sprint 4\MVP\aplicacao\api_vinho\env\Lib\site-packages\werkzeug\_internal.py L96  
+[2023-12-09 12:37:39,755] INFO _log() L96   127.0.0.1 - - [09/Dec/2023 12:37:39] "GET /vinhos HTTP/1.1" 200 - - call_trace=C:\Users\tathy\OneDrive\Documentos\PUC-RIO\Engenharia de Software\Sprint 4\MVP\aplicacao\api_vinho\env\Lib\site-packages\werkzeug\_internal.py L96  
+[2023-12-09 12:37:57,308] INFO _log() L96   127.0.0.1 - - [09/Dec/2023 12:37:57] "GET /vinhos HTTP/1.1" 200 - - call_trace=C:\Users\tathy\OneDrive\Documentos\PUC-RIO\Engenharia de Software\Sprint 4\MVP\aplicacao\api_vinho\env\Lib\site-packages\werkzeug\_internal.py L96  
+[2023-12-09 12:38:05,154] INFO _log() L96   127.0.0.1 - - [09/Dec/2023 12:38:05] "GET /vinhos HTTP/1.1" 200 - - call_trace=C:\Users\tathy\OneDrive\Documentos\PUC-RIO\Engenharia de Software\Sprint 4\MVP\aplicacao\api_vinho\env\Lib\site-packages\werkzeug\_internal.py L96  
+[2023-12-09 12:38:12,061] INFO _log() L96   127.0.0.1 - - [09/Dec/2023 12:38:12] "GET /vinhos HTTP/1.1" 200 - - call_trace=C:\Users\tathy\OneDrive\Documentos\PUC-RIO\Engenharia de Software\Sprint 4\MVP\aplicacao\api_vinho\env\Lib\site-packages\werkzeug\_internal.py L96  
+[2023-12-09 12:40:11,141] INFO _log() L96   127.0.0.1 - - [09/Dec/2023 12:40:11] "GET /vinhos HTTP/1.1" 200 - - call_trace=C:\Users\tathy\OneDrive\Documentos\PUC-RIO\Engenharia de Software\Sprint 4\MVP\aplicacao\api_vinho\env\Lib\site-packages\werkzeug\_internal.py L96  
+[2023-12-09 12:40:12,614] INFO _log() L96   127.0.0.1 - - [09/Dec/2023 12:40:12] "GET /vinhos HTTP/1.1" 200 - - call_trace=C:\Users\tathy\OneDrive\Documentos\PUC-RIO\Engenharia de Software\Sprint 4\MVP\aplicacao\api_vinho\env\Lib\site-packages\werkzeug\_internal.py L96  
+[2023-12-09 12:40:13,850] INFO _log() L96   127.0.0.1 - - [09/Dec/2023 12:40:13] "GET /vinhos HTTP/1.1" 200 - - call_trace=C:\Users\tathy\OneDrive\Documentos\PUC-RIO\Engenharia de Software\Sprint 4\MVP\aplicacao\api_vinho\env\Lib\site-packages\werkzeug\_internal.py L96  
+[2023-12-09 14:04:56,098] INFO _log() L96   127.0.0.1 - - [09/Dec/2023 14:04:56] "GET /vinhos HTTP/1.1" 200 - - call_trace=C:\Users\tathy\OneDrive\Documentos\PUC-RIO\Engenharia de Software\Sprint 4\MVP\aplicacao\api_vinho\env\Lib\site-packages\werkzeug\_internal.py L96  
+[2023-12-09 14:06:52,934] INFO _log() L96   127.0.0.1 - - [09/Dec/2023 14:06:52] "GET /openapi/swagger HTTP/1.1" 200 - - call_trace=C:\Users\tathy\OneDrive\Documentos\PUC-RIO\Engenharia de Software\Sprint 4\MVP\aplicacao\api_vinho\env\Lib\site-packages\werkzeug\_internal.py L96  
+[2023-12-09 14:06:52,973] INFO _log() L96   127.0.0.1 - - [09/Dec/2023 14:06:52] "[36mGET /openapi/static/css/swagger-ui.css HTTP/1.1[0m" 304 - - call_trace=C:\Users\tathy\OneDrive\Documentos\PUC-RIO\Engenharia de Software\Sprint 4\MVP\aplicacao\api_vinho\env\Lib\site-packages\werkzeug\_internal.py L96  
+[2023-12-09 14:06:52,974] INFO _log() L96   127.0.0.1 - - [09/Dec/2023 14:06:52] "[36mGET /openapi/static/js/swagger-ui-bundle.js HTTP/1.1[0m" 304 - - call_trace=C:\Users\tathy\OneDrive\Documentos\PUC-RIO\Engenharia de Software\Sprint 4\MVP\aplicacao\api_vinho\env\Lib\site-packages\werkzeug\_internal.py L96  
+[2023-12-09 14:06:52,976] INFO _log() L96   127.0.0.1 - - [09/Dec/2023 14:06:52] "[36mGET /openapi/static/js/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 - - call_trace=C:\Users\tathy\OneDrive\Documentos\PUC-RIO\Engenharia de Software\Sprint 4\MVP\aplicacao\api_vinho\env\Lib\site-packages\werkzeug\_internal.py L96  
+[2023-12-09 14:06:53,158] INFO _log() L96   127.0.0.1 - - [09/Dec/2023 14:06:53] "GET /openapi/openapi.json HTTP/1.1" 200 - - call_trace=C:\Users\tathy\OneDrive\Documentos\PUC-RIO\Engenharia de Software\Sprint 4\MVP\aplicacao\api_vinho\env\Lib\site-packages\werkzeug\_internal.py L96  
