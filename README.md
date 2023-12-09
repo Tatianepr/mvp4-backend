@@ -20,8 +20,10 @@ Linkendin: https://www.linkedin.com/in/tatianepr/
 
 Foi desenvolvido um frontend em JavaScript que usa as APIs desenvolvidos em Python. 
 
-- Frontend (porta 80) -> https://github.com/Tatianepr/xxx
-- Componente Categoria (porta 5000) -> https://github.com/Tatianepr/mvp4-backend (esse)
+- Frontend (porta 80) -> https://github.com/Tatianepr/mvp4-frontend
+- Componente de APIs (porta 5000) -> https://github.com/Tatianepr/mvp4-backend (esse)
+- Modelo desenvolvido no Colab - https://colab.research.google.com/drive/1cYrJVMw-cIkE1tmr9svY5e99cu8regeV?usp=sharing
+- Também migrei o modelo para uma aplicação local - 
 
 # testes
 
